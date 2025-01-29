@@ -1,14 +1,23 @@
 ---
-date created: 周二, 12月 31日 2024, 15:09
-date modified: 周三, 1月 29日 2025, 15:02
+title: "THE 1ST POST"  
+date: "2025-01-29"  
+summary: "An LSM Tree overview and Java implementation."  
+description: "An LSM Tree overview and Java implementation."  
+toc: true  
+readTime: true  
+autonumber: true  
+math: true  
+tags: [TEST]  
+showTags: false  
+hideBackToTop: false  
+fediverse: "@[g.hu4ng@outlook.com](mailto:g.hu4ng@outlook.com) "
 ---
 
 ## Here is the first post from Obsidian
 Hi I'm Lawrence.
 I've been spending time learning how to write a blog in my obsidian vault and publish it online for free.
 
+![Image Description](/images/Pasted%20image%2020250129185931.png)
+
 ## Result
 This is the result.
-
-
-rsync -av --delete "/Users/huanggaoxiang/Library/Mobile Documents/iCloud~md~obsidian/Documents/Hu∆ng‘s Workplace/posts" "/Users/huanggaoxiang/ghu4ng/content/posts"

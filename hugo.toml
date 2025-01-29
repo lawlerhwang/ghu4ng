@@ -1,119 +1,81 @@
-# hugo server --minify --themesDir ../.. --baseURL=http://0.0.0.0:1313/theme/hugo-book/
 
-baseURL = 'https://example.com/'
-title = 'Hugo Book'
-theme = 'hugo-book'
 
-# Book configuration
-disablePathToLower = true
-enableGitInfo = true
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My website'
+theme = 'typo'
 
-# Needed for mermaid/katex shortcodes
-[markup]
-[markup.goldmark.renderer]
-  unsafe = true
+# Google analytics code
+googleAnalytics = "G-xxxxxxxxx"
 
-[markup.tableOfContents]
-  startLevel = 1
-
-# Multi-lingual mode config
-# There are different options to translate files
-# See https://gohugo.io/content-management/multilingual/#translation-by-filename
-# And https://gohugo.io/content-management/multilingual/#translation-by-content-directory
-[languages]
-[languages.en]
-  languageName = 'English'
-  contentDir = 'content'
-  weight = 1
-
-[languages.zh]
-  languageName = 'Chinese'
-  contentDir = 'content.zh'
-  weight = 2
-
-[languages.he]
-  languageName = 'Hebrew'
-  contentDir = 'content.he'
-  languageDirection = 'rtl'
-  weight = 3
-
-[menu]
-# [[menu.before]]
-[[menu.after]]
-  name = "Github"
-  url = "https://github.com/alex-shpak/hugo-book"
-  weight = 10
-
-[[menu.after]]
-  name = "Hugo Themes"
-  url = "https://themes.gohugo.io/themes/hugo-book/"
-  weight = 20
+[taxonomies]
+tag = 'tags'
 
 [params]
-  # (Optional, default light) Sets color theme: light, dark or auto.
-  # Theme 'auto' switches between dark and light modes based on browser/os preferences
-  BookTheme = 'light'
+# Meta description
+description = "A Tech Blog"
 
-  # (Optional, default true) Controls table of contents visibility on right side of pages.
-  # Start and end levels can be controlled with markup.tableOfContents setting.
-  # You can also specify this parameter per page in front matter.
-  BookToC = true
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
 
-  # (Optional, default favicon.png) Set the path to a favicon file.
-  # If the favicon is /static/favicon.png then the path would be favicon.png
-  # BookFavicon = 'favicon.png'
+# Intro on main page, content is markdown
+homeIntroTitle = 'Hi!'
+homeIntroContent = """
+I am an Italian Software Engineer with a strong foundation in computer science and a passion for solving complex problems.
+I am interested in a range of topics, including algorithms, distributed systems, databases, and information retrieval.
+"""
 
-  # (Optional, default none) Set the path to a logo for the book.
-  # If the logo is /static/logo.png then the path would be logo.png
-  # BookLogo = 'logo.png'
+# Collection to display on home
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
 
-  # (Optional, default docs) Specify root page to render child pages as menu.
-  # Page is resoled by .GetPage function: https://gohugo.io/functions/getpage/
-  # For backward compatibility you can set '*' to render all sections to menu. Acts same as '/'
-  BookSection = 'docs'
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2 Jan 2006'
 
-  # Set source repository location.
-  # Used for 'Last Modified' and 'Edit this page' links.
-  BookRepo = 'https://github.com/alex-shpak/hugo-book'
+# Breadcrumbs
+breadcrumbs = true
 
-  # (Optional, default 'commit') Specifies commit portion of the link to the page's last modified
-  # commit hash for 'doc' page type.
-  # Requires 'BookRepo' param.
-  # Value used to construct a URL consisting of BookRepo/BookCommitPath/<commit-hash>
-  # Github uses 'commit', Bitbucket uses 'commits'
-  # BookCommitPath = 'commit'
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/user/"
 
-  # Enable "Edit this page" links for 'doc' page type.
-  # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
-  # Edit path must point to root directory of repo.
-  BookEditPath = 'edit/main/exampleSite'
+[[params.social]]
+name = "medium"
+url = "https://medium.com/@user"
 
-  # Configure the date format used on the pages
-  # - In git information
-  # - In blog posts
-  BookDateFormat = 'January 2, 2006'
+[[params.social]]
+name = "github"
+url = "https://github.com/user"
 
-  # (Optional, default true) Enables search function with flexsearch,
-  # Index is built on fly, therefore it might slowdown your website.
-  # Configuration for indexing can be adjusted in i18n folder per language.
-  BookSearch = true
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
 
-  # (Optional, default true) Enables comments template on pages
-  # By default partals/docs/comments.html includes Disqus template
-  # See https://gohugo.io/content-management/comments/#configure-disqus
-  # Can be overwritten by same param in page frontmatter
-  BookComments = true
+[[params.menu]]
+name = "posts"
+url = "/posts"
 
-  # /!\ This is an experimental feature, might be removed or changed at any time
-  # (Optional, experimental, default false) Enables portable links and link checks in markdown pages.
-  # Portable links meant to work with text editors and let you write markdown without {{< relref >}} shortcode
-  # Theme will print warning if page referenced in markdown does not exists.
-  BookPortableLinks = true
+[[params.menu]]
+name = "about"
+url = "/about"
 
-  # /!\ This is an experimental feature, might be removed or changed at any time
-  # (Optional, experimental, default false) Enables service worker that caches visited pages and resources for offline use.
-  BookServiceWorker = true
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
 
-  # /!\ This is an experimental feature, might be removed or changed at any time
-  # (Optional, experimental, default false) Enables a drop-down menu for translations only if a translation is present.
-  BookTranslatedOnly = false
+# Giscus comments
+[params.giscus]
+enable = false
+repo = "user/repo"
+repoid = "repoId"
+category = "General"
+categoryid = "categoryId"
+mapping = "pathname"
+theme = "preferred_color_scheme"
