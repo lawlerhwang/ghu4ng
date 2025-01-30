@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>感受 on My website</title>
-    <link>http://localhost:1313/tags/%E6%84%9F%E5%8F%97/</link>
-    <description>Recent content in 感受 on My website</description>
+    <title>感受 on HU4NG DIGITAL GARDEN</title>
+    <link>https://example.org/tags/%E6%84%9F%E5%8F%97/</link>
+    <description>Recent content in 感受 on HU4NG DIGITAL GARDEN</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 05 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E6%84%9F%E5%8F%97/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/tags/%E6%84%9F%E5%8F%97/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DO STH</title>
-      <link>http://localhost:1313/posts/posts/240605-do-sth/</link>
+      <link>https://example.org/posts/posts/240605-do-sth/</link>
       <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/posts/240605-do-sth/</guid>
+      <guid>https://example.org/posts/posts/240605-do-sth/</guid>
       <description>当我不知道该想些什么的时候，我在想什么；做点什么的欲望被压制了一整年</description>
     </item>
   </channel>

@@ -2,8 +2,8 @@
 
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My website'
-theme = 'typo'
+title = 'HU4NG DIGITAL GARDEN'
+theme = 'typo-main'
 
 # Google analytics code
 googleAnalytics = "G-xxxxxxxxx"
@@ -13,7 +13,7 @@ tag = 'tags'
 
 [params]
 # Meta description
-description = "A Tech Blog"
+description = "A Digital Garden"
 
 # Appearance settings
 theme = 'auto'
@@ -23,8 +23,8 @@ hideHeader = false
 # Intro on main page, content is markdown
 homeIntroTitle = 'Hi!'
 homeIntroContent = """
-I am an Italian Software Engineer with a strong foundation in computer science and a passion for solving complex problems.
-I am interested in a range of topics, including algorithms, distributed systems, databases, and information retrieval.
+I am an marketer with a strong passion for solving problems.
+I am interested in a range of topics, including global marketing, branding, story-telling and music.
 """
 
 # Collection to display on home
