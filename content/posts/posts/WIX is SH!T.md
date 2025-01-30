@@ -13,5 +13,5 @@ hideBackToTop: false
 fediverse: "@ [g.hu4ng@outlook.com](mailto:g.hu4ng@outlook.com) "
 ---
 
-![[Pasted image 20250130170415.png]]
+![Image Description](/images/Pasted%20image%2020250130170415.png)
 WIX -$120

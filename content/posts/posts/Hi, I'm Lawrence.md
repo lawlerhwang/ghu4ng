@@ -17,7 +17,7 @@ fediverse: "@[g.hu4ng@outlook.com](mailto:g.hu4ng@outlook.com) "
 Hi I'm Lawrence.
 I've been spending time learning how to write a blog in my obsidian vault and publish it online for free.
 
-![[Pasted image 20250129185931.png]]
+![Image Description](/images/Pasted%20image%2020250129185931.png)
 
 ## Result
 This is the result.
