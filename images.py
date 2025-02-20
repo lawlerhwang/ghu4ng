@@ -3,7 +3,7 @@ import re
 import shutil
 
 # Paths
-posts_dir = "/Users/huanggaoxiang/ghu4ng/content/posts/posts"
+posts_dir = "/Users/huanggaoxiang/ghu4ng/content/posts"
 attachments_dir = "/Users/huanggaoxiang/Library/Mobile Documents/iCloud~md~obsidian/Documents/Hu∆ng‘s Workplace/04 Archive/99 Attachment"
 static_images_dir = "/Users/huanggaoxiang/ghu4ng/static/images"
 
